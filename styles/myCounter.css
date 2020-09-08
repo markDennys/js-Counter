@@ -43,6 +43,10 @@
     border: 1px solid grey;
 }
 
+button:active {
+    transform: scale(0.97, 0.97);
+}
+
 .show-elements {
     display: flex;
 }
