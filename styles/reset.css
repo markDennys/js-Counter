@@ -1,0 +1,41 @@
+@import url('./myCounter.css');
+@import url('./settings.css');
+:root {
+    --first-color: rgb(39, 39, 39);
+    --second-color: white;
+    --third-color: grey;
+    --fourth-color: #4e54c8;
+    --fiveth-color: #8f94fb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    min-height: 500px;
+    background: linear-gradient(90deg, var(--fourth-color), var(--fiveth-color));
+    font-family: 'Fira Sans', sans-serif;
+    background-size: 300% 300%;
+    animation: colors 8s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
