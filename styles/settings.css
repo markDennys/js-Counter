@@ -30,3 +30,9 @@
 .settings-svg:hover {
     transform: rotate(90deg);
 }
+
+.exit {
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+}

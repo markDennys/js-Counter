@@ -39,3 +39,9 @@ body {
         background-position: 0% 50%;
     }
 }
+
+.title {
+    position: fixed;
+    font-size: max(100px, 24vw);
+    opacity: 0.1;
+}
